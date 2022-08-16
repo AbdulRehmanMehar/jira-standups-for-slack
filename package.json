@@ -4,14 +4,17 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "start:watch": "nodemon src/main.js"
   },
   "author": "Abdul Rehman",
   "license": "ISC",
   "dependencies": {
-    "@slack/bolt": "^3.12.1"
+    "@slack/bolt": "^3.12.1",
+    "express": "^4.18.1"
   },
   "devDependencies": {
+    "dotenv": "^16.0.1",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-node": "^4.1.0",
@@ -19,6 +22,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
     "prettier": "^2.7.1"
   }
 }
