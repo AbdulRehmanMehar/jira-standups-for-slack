@@ -2,9 +2,9 @@
   "name": "jira-daily-standup-slack-app",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node src/main.js"
   },
   "author": "Abdul Rehman",
   "license": "ISC",
